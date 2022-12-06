@@ -1,0 +1,49 @@
+body {
+    background: gray;
+}
+
+div {
+    box-sizing: border-box;
+}
+
+header {
+    background: white;
+    padding: 10px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+.allposts {
+    width: 600px;
+    margin: auto;
+}
+
+.post {
+    background: white;
+    margin-top: 60px;
+}
+
+.post h2, .post p {
+    padding: 10px;
+}
+
+.photo img {
+    width: 100%;
+}
+
+.title {
+    display: flex;
+}
+
+.title h2 {
+    width: 80%;
+}
+
+.title span {
+    width: 20%;
+    padding: 40px;
+    color: darkgrey;
+    text-align: right;
+}
